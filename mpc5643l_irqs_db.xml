@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPC5643L author="Kailai Shao" date="2013.5.29">
+    <Irq category="INTC_0" id="0">
+        INTC_0_Software_setable_flag_0
+    </Irq>
+    <Irq category="INTC_0" id="1">
+        INTC_0_Software_setable_flag_1
+    </Irq>
+    <Irq category="INTC_0" id="2">
+        INTC_0_Software_setable_flag_2
+    </Irq>
+    <Irq category="INTC_0" id="3">
+        INTC_0_Software_setable_flag_3
+    </Irq>
+    <Irq category="INTC_0" id="4">
+        INTC_0_Software_setable_flag_4
+    </Irq>
+    <Irq category="INTC_0" id="5">
+        INTC_0_Software_setable_flag_5
+    </Irq>
+    <Irq category="INTC_0" id="6">
+        INTC_0_Software_setable_flag_6
+    </Irq>
+    <Irq category="INTC_0" id="7">
+        INTC_0_Software_setable_flag_7
+    </Irq>
+    <Irq category="UnUsed" id="8">
+        UnUsed
+    </Irq>
+    <Irq category="ECSM_0" id="9">
+        ECSM_0_Platform_Flash_Bank_Abort_Or_Stall
+    </Irq>
+    <Irq category="DMA_0" id="10">
+        DMA_0_Combined_Error
+    </Irq>
+    <Irq category="DMA_0" id="11">
+        DMA_0_Channel_0
+    </Irq>
+    <Irq category="DMA_0" id="12">
+        DMA_0_Channel_1
+    </Irq>
+    <Irq category="DMA_0" id="13">
+        DMA_0_Channel_2
+    </Irq>
+    <Irq category="DMA_0" id="14">
+        DMA_0_Channel_3
+    </Irq>
+    <Irq category="DMA_0" id="15">
+        DMA_0_Channel_4
+    </Irq>
+    <Irq category="DMA_0" id="16">
+        DMA_0_Channel_5
+    </Irq>
+    <Irq category="DMA_0" id="17">
+        DMA_0_Channel_6
+    </Irq>
+    <Irq category="DMA_0" id="18">
+        DMA_0_Channel_7
+    </Irq>
+    <Irq category="DMA_0" id="19">
+        DMA_0_Channel_8
+    </Irq>
+    <Irq category="DMA_0" id="20">
+        DMA_0_Channel_9
+    </Irq>
+    <Irq category="DMA_0" id="21">
+        DMA_0_Channel_10
+    </Irq>
+    <Irq category="DMA_0" id="22">
+        DMA_0_Channel_11
+    </Irq>
+    <Irq category="DMA_0" id="23">
+        DMA_0_Channel_12
+    </Irq>
+    <Irq category="DMA_0" id="24">
+        DMA_0_Channel_13
+    </Irq>
+    <Irq category="DMA_0" id="25">
+        DMA_0_Channel_14
+    </Irq>
+    <Irq category="DMA_0" id="26">
+        DMA_0_Channel_15
+    </Irq>
+    <Irq category="UnUsed" id="27">
+        UnUsed
+    </Irq>
+    <Irq category="SWT_0" id="28">
+        SWT_0_SWT_Timeout
+    </Irq>
+    <Irq category="SWT_1" id="29">
+        SWT_1_SWT_Timeout
+    </Irq>
+    <Irq category="SWT_0" id="30">
+        SWT_0_Match_on_channel_0
+    </Irq>
+    <Irq category="SWT_0" id="31">
+        SWT_0_Match_on_channel_1
+    </Irq>
+    <Irq category="SWT_0" id="32">
+        SWT_0_Match_on_channel_2
+    </Irq>
+    <Irq category="SWT_0" id="33">
+        SWT_0_Match_on_channel_3
+    </Irq>
+    <Irq category="UnUsed" id="34">
+        UnUsed
+    </Irq>
+    <Irq category="ECSM_0" id="35">
+        ECSM_0_ECC_PlatformFlash_Or_DBD_PlatformRAM_noncorrectable_error
+    </Irq>
+    <Irq category="ECSM_0" id="36">
+        ECSM_0_ECC_PlatformFlash_Or_DBD_PlatformRAM_1bit_correction
+    </Irq>
+    <Irq category="UnUsed" id="37">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="38">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="39">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="40">
+        UnUsed
+    </Irq>
+    <Irq category="SIUL" id="41">
+        SIUL_SIU_External_IRQ_0
+    </Irq>
+    <Irq category="SIUL" id="42">
+        SIUL_SIU_External_IRQ_1
+    </Irq>
+    <Irq category="SIUL" id="43">
+        SIUL_SIU_External_IRQ_2
+    </Irq>
+    <Irq category="SIUL" id="44">
+        SIUL_SIU_External_IRQ_3
+    </Irq>
+    <Irq category="UnUsed" id="45">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="46">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="47">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="48">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="49">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="50">
+        UnUsed
+    </Irq>
+    <Irq category="MC_ME" id="51">
+        MC_ME_Safe_Mode_Interrupt
+    </Irq>
+    <Irq category="MC_ME" id="52">
+        MC_ME_Mode_Transition_Interrupt
+    </Irq>
+    <Irq category="MC_ME" id="53">
+        MC_ME_Invalid_Mode_Interrupt
+    </Irq>
+    <Irq category="MC_ME" id="54">
+        MC_ME_Invalid_Mode_Config
+    </Irq>
+    <Irq category="UnUsed" id="55">
+        UnUsed
+    </Irq>
+    <Irq category="MC_RGM" id="56">
+        MC_RGM_Functional_Reset_Alternate_Event_Interrupt
+    </Irq>
+    <Irq category="XOSC" id="57">
+        XOSC_XOSC_counter_expired
+    </Irq>
+    <Irq category="UnUsed" id="58">
+        UnUsed
+    </Irq>
+    <Irq category="PIT" id="59">
+        PIT_PITimer_Channel_0
+    </Irq>
+    <Irq category="PIT" id="60">
+        PIT_PITimer_Channel_1
+    </Irq>
+    <Irq category="PIT" id="61">
+        PIT_PITimer_Channel_2
+    </Irq>
+    <Irq category="ADC_0" id="62">
+        ADC_0_ADC_EOC
+    </Irq>
+    <Irq category="ADC_0" id="63">
+        ADC_0_ADC_ER
+    </Irq>
+    <Irq category="ADC_0" id="64">
+        ADC_0_ADC_WD
+    </Irq>
+    <Irq category="FlexCAN_0" id="65">
+        FlexCAN_0_FLEXCAN_ESR
+    </Irq>
+    <Irq category="FlexCAN_0" id="66">
+        FlexCAN_0_FLEXCAN_ESR_BOFF_Or_Transmit_Receive_Warning
+    </Irq>
+    <Irq category="UnUsed" id="67">
+        UnUsed
+    </Irq>
+    <Irq category="FlexCAN_0" id="68">
+        FlexCAN_0_FLEXCAN_BUF_00_03
+    </Irq>
+    <Irq category="FlexCAN_0" id="69">
+        FlexCAN_0_FLEXCAN_BUF_04_07
+    </Irq>
+    <Irq category="FlexCAN_0" id="70">
+        FlexCAN_0_FLEXCAN_BUF_08_11
+    </Irq>
+    <Irq category="FlexCAN_0" id="71">
+        FlexCAN_0_FLEXCAN_BUF_12_15
+    </Irq>
+    <Irq category="FlexCAN_0" id="72">
+        FlexCAN_0_FLEXCAN_BUF_16_31
+    </Irq>
+    <Irq category="UnUsed" id="73">
+        UnUsed
+    </Irq>
+    <Irq category="DSPI_0" id="74">
+        DSPI_0_DSPI_SR_TFUF_Or_RFOF
+    </Irq>
+    <Irq category="DSPI_0" id="75">
+        DSPI_0_DSPI_SR_EOQF
+    </Irq>
+    <Irq category="DSPI_0" id="76">
+        DSPI_0_DSPI_SR_TFFF
+    </Irq>
+    <Irq category="DSPI_0" id="77">
+        DSPI_0_DSPI_SR_TCF
+    </Irq>
+    <Irq category="DSPI_0" id="78">
+        DSPI_0_DSPI_SR_RFDF
+    </Irq>
+    <Irq category="LINFlexD_0" id="79">
+        LINFlexD_0_LINFlexD_RXI
+    </Irq>
+    <Irq category="LINFlexD_0" id="80">
+        LINFlexD_0_LINFlexD_TXI
+    </Irq>
+    <Irq category="LINFlexD_0" id="81">
+        LINFlexD_0_LINFlexD_ERR
+    </Irq>
+    <Irq category="ADC_1" id="82">
+        ADC_1_ADC_EOC
+    </Irq>
+    <Irq category="ADC_1" id="83">
+        ADC_1_ADC_ER
+    </Irq>
+    <Irq category="ADC_1" id="84">
+        ADC_1_ADC_WD
+    </Irq>
+    <Irq category="FlexCAN_1" id="85">
+        FlexCAN_1_FLEXCAN_ESR
+    </Irq>
+    <Irq category="FlexCAN_1" id="86">
+        FlexCAN_1_FLEXCAN_ESR_BOFF_Or_Transmit_Receive_Warning
+    </Irq>
+    <Irq category="UnUsed" id="87">
+        UnUsed
+    </Irq>
+    <Irq category="FlexCAN_1" id="88">
+        FlexCAN_1_FLEXCAN_BUF_00_03
+    </Irq>
+    <Irq category="FlexCAN_1" id="89">
+        FlexCAN_1_FLEXCAN_BUF_04_07
+    </Irq>
+    <Irq category="FlexCAN_1" id="90">
+        FlexCAN_1_FLEXCAN_BUF_08_11
+    </Irq>
+    <Irq category="FlexCAN_1" id="91">
+        FlexCAN_1_FLEXCAN_BUF_12_15
+    </Irq>
+    <Irq category="FlexCAN_1" id="92">
+        FlexCAN_1_FLEXCAN_BUF_16_31
+    </Irq>
+    <Irq category="UnUsed" id="93">
+        UnUsed
+    </Irq>
+    <Irq category="DSPI_1" id="94">
+        DSPI_1_DSPI_SR_TFUF_Or_RFOF
+    </Irq>
+    <Irq category="DSPI_1" id="95">
+        DSPI_1_DSPI_SR_EOQF
+    </Irq>
+    <Irq category="DSPI_1" id="96">
+        DSPI_1_DSPI_SR_TFFF
+    </Irq>
+    <Irq category="DSPI_1" id="97">
+        DSPI_1_DSPI_SR_TCF
+    </Irq>
+    <Irq category="DSPI_1" id="98">
+        DSPI_1_DSPI_SR_RFDF
+    </Irq>
+    <Irq category="LINFlexD_1" id="99">
+        LINFlexD_1_LINFlexD_RXI
+    </Irq>
+    <Irq category="LINFlexD_1" id="100">
+        LINFlexD_1_LINFlexD_TXI
+    </Irq>
+    <Irq category="LINFlexD_1" id="101">
+        LINFlexD_1_LINFlexD_ERR
+    </Irq>
+    <Irq category="UnUsed" id="102">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="103">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="104">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="105">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="106">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="107">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="108">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="109">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="110">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="111">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="112">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="113">
+        UnUsed
+    </Irq>
+    <Irq category="DSPI_2" id="114">
+        DSPI_2_DSPI_SR_TFUF_Or_RFOF
+    </Irq>
+    <Irq category="DSPI_2" id="115">
+        DSPI_2_DSPI_SR_EOQF
+    </Irq>
+    <Irq category="DSPI_2" id="116">
+        DSPI_2_DSPI_SR_TFFF
+    </Irq>
+    <Irq category="DSPI_2" id="117">
+        DSPI_2_DSPI_SR_TCF
+    </Irq>
+    <Irq category="DSPI_2" id="118">
+        DSPI_2_DSPI_SR_RFDF
+    </Irq>
+    <Irq category="UnUsed" id="119">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="120">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="121">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="122">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="123">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="124">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="125">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="126">
+        UnUsed
+    </Irq>
+    <Irq category="PIT" id="127">
+        PIT_PITimer_Channel_3
+    </Irq>
+    <Irq category="UnUsed" id="128">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="129">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="130">
+        UnUsed
+    </Irq>
+    <Irq category="FlexRay" id="131">
+        FlexRay_LRNEIF_Or_DRNEIF
+    </Irq>
+    <Irq category="FlexRay" id="132">
+        FlexRay_LRCEIF_Or_DRCEIF
+    </Irq>
+    <Irq category="FlexRay" id="133">
+        FlexRay_FAFAIF
+    </Irq>
+    <Irq category="FlexRay" id="134">
+        FlexRay_FAFVIF
+    </Irq>
+    <Irq category="FlexRay" id="135">
+        FlexRay_WUPIF
+    </Irq>
+    <Irq category="FlexRay" id="136">
+        FlexRay_PRIF
+    </Irq>
+    <Irq category="FlexRay" id="137">
+        FlexRay_CHIF
+    </Irq>
+    <Irq category="FlexRay" id="138">
+        FlexRay_TBIF
+    </Irq>
+    <Irq category="FlexRay" id="139">
+        FlexRay_RBIF
+    </Irq>
+    <Irq category="FlexRay" id="140">
+        FlexRay_MIF
+    </Irq>
+    <Irq category="UnUsed" id="141">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="142">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="143">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="144">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="145">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="146">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="147">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="148">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="149">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="150">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="151">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="152">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="153">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="154">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="155">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="156">
+        UnUsed
+    </Irq>
+    <Irq category="eTimer_0" id="157">
+        eTimer_0_TC0IR
+    </Irq>
+    <Irq category="eTimer_0" id="158">
+        eTimer_0_TC1IR
+    </Irq>
+    <Irq category="eTimer_0" id="159">
+        eTimer_0_TC2IR
+    </Irq>
+    <Irq category="eTimer_0" id="160">
+        eTimer_0_TC3IR
+    </Irq>
+    <Irq category="eTimer_0" id="161">
+        eTimer_0_TC4IR
+    </Irq>
+    <Irq category="eTimer_0" id="162">
+        eTimer_0_TC5IR
+    </Irq>
+    <Irq category="UnUsed" id="163">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="164">
+        UnUsed
+    </Irq>
+    <Irq category="eTimer_0" id="165">
+        eTimer_0_WTIF
+    </Irq>
+    <Irq category="UnUsed" id="166">
+        UnUsed
+    </Irq>
+    <Irq category="eTimer_0" id="167">
+        eTimer_0_RCF
+    </Irq>
+    <Irq category="eTimer_1" id="168">
+        eTimer_1_TC0IR
+    </Irq>
+    <Irq category="eTimer_1" id="169">
+        eTimer_1_TC1IR
+    </Irq>
+    <Irq category="eTimer_1" id="170">
+        eTimer_1_TC2IR
+    </Irq>
+    <Irq category="eTimer_1" id="171">
+        eTimer_1_TC3IR
+    </Irq>
+    <Irq category="eTimer_1" id="172">
+        eTimer_1_TC4IR
+    </Irq>
+    <Irq category="eTimer_1" id="173">
+        eTimer_1_TC5IR
+    </Irq>
+    <Irq category="UnUsed" id="174">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="175">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="176">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="177">
+        UnUsed
+    </Irq>
+    <Irq category="eTimer_1" id="178">
+        eTimer_1_RCF
+    </Irq>
+    <Irq category="FlexPWM_0" id="179">
+        FlexPWM_0_RF0
+    </Irq>
+    <Irq category="FlexPWM_0" id="180">
+        FlexPWM_0_COF0
+    </Irq>
+    <Irq category="FlexPWM_0" id="181">
+        FlexPWM_0_CAF0
+    </Irq>
+    <Irq category="FlexPWM_0" id="182">
+        FlexPWM_0_RF1
+    </Irq>
+    <Irq category="FlexPWM_0" id="183">
+        FlexPWM_0_COF1
+    </Irq>
+    <Irq category="FlexPWM_0" id="184">
+        FlexPWM_0_CAF1
+    </Irq>
+    <Irq category="FlexPWM_0" id="185">
+        FlexPWM_0_RF2
+    </Irq>
+    <Irq category="FlexPWM_0" id="186">
+        FlexPWM_0_COF2
+    </Irq>
+    <Irq category="FlexPWM_0" id="187">
+        FlexPWM_0_CAF2
+    </Irq>
+    <Irq category="FlexPWM_0" id="188">
+        FlexPWM_0_RF3
+    </Irq>
+    <Irq category="FlexPWM_0" id="189">
+        FlexPWM_0_COF3
+    </Irq>
+    <Irq category="FlexPWM_0" id="190">
+        FlexPWM_0_CAF3
+    </Irq>
+    <Irq category="FlexPWM_0" id="191">
+        FlexPWM_0_FFLAG
+    </Irq>
+    <Irq category="FlexPWM_0" id="192">
+        FlexPWM_0_REF
+    </Irq>
+    <Irq category="CTU_0" id="193">
+        CTU_0_MRS_I
+    </Irq>
+    <Irq category="CTU_0" id="194">
+        CTU_0_T0_I
+    </Irq>
+    <Irq category="CTU_0" id="195">
+        CTU_0_T1_I
+    </Irq>
+    <Irq category="CTU_0" id="196">
+        CTU_0_T2_I
+    </Irq>
+    <Irq category="CTU_0" id="197">
+        CTU_0_T3_I
+    </Irq>
+    <Irq category="CTU_0" id="198">
+        CTU_0_T4_I
+    </Irq>
+    <Irq category="CTU_0" id="199">
+        CTU_0_T5_I
+    </Irq>
+    <Irq category="CTU_0" id="200">
+        CTU_0_T6_I
+    </Irq>
+    <Irq category="CTU_0" id="201">
+        CTU_0_T7_I
+    </Irq>
+    <Irq category="CTU_0" id="202">
+        CTU_0_FIFO0_I
+    </Irq>
+    <Irq category="CTU_0" id="203">
+        CTU_0_FIFO1_I
+    </Irq>
+    <Irq category="CTU_0" id="204">
+        CTU_0_FIFO2_I
+    </Irq>
+    <Irq category="CTU_0" id="205">
+        CTU_0_FIFO3_I
+    </Irq>
+    <Irq category="CTU_0" id="206">
+        CTU_0_ADC_I
+    </Irq>
+    <Irq category="CTU_0" id="207">
+        CTU_0_ERR_I
+    </Irq>
+    <Irq category="UnUsed" id="208">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="209">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="210">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="211">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="212">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="213">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="214">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="215">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="216">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="217">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="218">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="219">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="220">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="221">
+        UnUsed
+    </Irq>
+    <Irq category="eTimer_2" id="222">
+        eTimer_2_TC0IR
+    </Irq>
+    <Irq category="eTimer_2" id="223">
+        eTimer_2_TC1IR
+    </Irq>
+    <Irq category="eTimer_2" id="224">
+        eTimer_2_TC2IR
+    </Irq>
+    <Irq category="eTimer_2" id="225">
+        eTimer_2_TC3IR
+    </Irq>
+    <Irq category="eTimer_2" id="226">
+        eTimer_2_TC4IR
+    </Irq>
+    <Irq category="eTimer_2" id="227">
+        eTimer_2_TC5IR
+    </Irq>
+    <Irq category="UnUsed" id="228">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="229">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="230">
+        UnUsed
+    </Irq>
+    <Irq category="UnUsed" id="231">
+        UnUsed
+    </Irq>
+    <Irq category="eTimer_2" id="232">
+        eTimer_2_RCF
+    </Irq>
+    <Irq category="FlexPWM_1" id="233">
+        FlexPWM_1_RF0
+    </Irq>
+    <Irq category="FlexPWM_1" id="234">
+        FlexPWM_1_COF0
+    </Irq>
+    <Irq category="FlexPWM_1" id="235">
+        FlexPWM_1_CAF0
+    </Irq>
+    <Irq category="FlexPWM_1" id="236">
+        FlexPWM_1_RF1
+    </Irq>
+    <Irq category="FlexPWM_1" id="237">
+        FlexPWM_1_COF1
+    </Irq>
+    <Irq category="FlexPWM_1" id="238">
+        FlexPWM_1_CAF1
+    </Irq>
+    <Irq category="FlexPWM_1" id="239">
+        FlexPWM_1_RF2
+    </Irq>
+    <Irq category="FlexPWM_1" id="240">
+        FlexPWM_1_COF2
+    </Irq>
+    <Irq category="FlexPWM_1" id="241">
+        FlexPWM_1_CAF2
+    </Irq>
+    <Irq category="FlexPWM_1" id="242">
+        FlexPWM_1_RF3
+    </Irq>
+    <Irq category="FlexPWM_1" id="243">
+        FlexPWM_1_COF3
+    </Irq>
+    <Irq category="FlexPWM_1" id="244">
+        FlexPWM_1_CAF3
+    </Irq>
+    <Irq category="FlexPWM_1" id="245">
+        FlexPWM_1_FFLAG
+    </Irq>
+    <Irq category="FlexPWM_1" id="246">
+        FlexPWM_1_REF
+    </Irq>
+    <Irq category="SEMA4_0" id="247">
+        SEMA4_0_Core_0_Failed_Lock_Attempt
+    </Irq>
+    <Irq category="SEMA4_1" id="248">
+        SEMA4_1_Core_0_Failed_Lock_Attempt
+    </Irq>
+    <Irq category="UnUsed" id="249">
+        UnUsed
+    </Irq>
+    <Irq category="FCCU" id="250">
+        FCCU_ALRM
+    </Irq>
+    <Irq category="FCCU" id="251">
+        FCCU_CFG_TO
+    </Irq>
+    <Irq category="FCCU" id="252">
+        FCCU_Self_Check_RCC0_Failure
+    </Irq>
+    <Irq category="FCCU" id="253">
+        FCCU_Self_Check_RCC1_Failure
+    </Irq>
+    <Irq category="PMU" id="254">
+        PMU_Voltage_Monitor_Fault_Or_High_Low_Voltage_Detector_Error
+    </Irq>
+    <Irq category="SWG" id="255">
+        SWG_SER
+    </Irq>
+</MPC5643L>
